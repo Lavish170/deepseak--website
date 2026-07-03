@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexus · The Future of Design</title>
+
+    <!-- SEO & Open Graph -->
+    <meta name="description" content="A pristine landing page crafted with elegance, speed, and precision. Experience the pinnacle of modern web design." />
+    <meta property="og:title" content="Nexus · The Future of Design" />
+    <meta property="og:description" content="A pristine landing page crafted with elegance, speed, and precision." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Google Fonts: Inter (premium sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ====== NAVIGATION ====== -->
+    <header class="navbar" role="banner" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Nexus</span>
+            </div>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#features">Features</a>
+                <a href="#stats">Insights</a>
+                <a href="#cta">Contact</a>
+            </nav>
+            <button class="nav-cta" aria-label="Get started">Get Started</button>
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero" id="hero" aria-label="Hero banner">
+        <!-- Background canvas for particle network -->
+        <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+        <!-- Floating geometric blobs (CSS) -->
+        <div class="blob blob-1" aria-hidden="true"></div>
+        <div class="blob blob-2" aria-hidden="true"></div>
+        <div class="blob blob-3" aria-hidden="true"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">✦ Next‑gen experience</span>
+                <h1 class="hero-title">
+                    Design <br class="mobile-break" />
+                    <span class="gradient-text">without limits</span>
+                </h1>
+                <p class="hero-subtitle">
+                    A pristine canvas where ideas take flight. Built for speed,
+                    crafted for elegance, and optimized for the future.
+                </p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn-primary">Launch project <span aria-hidden="true">→</span></a>
+                    <a href="#features" class="btn-secondary">Learn more</a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <!-- Abstract decorative ring -->
+                <div class="ring-ring"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ====== FEATURES SECTION ====== -->
+    <section class="features" id="features" aria-label="Key features">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Capabilities</span>
+                <h2>Everything you need to <br />build something remarkable</h2>
+                <p>From micro‑interactions to macro‑scale performance — Nexus brings it all together.</p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning fast</h3>
+                    <p>Sub‑second loads and silky 60fps animations that keep your users engaged.</p>
+                </article>
+                <article class="feature-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Pixel perfect</h3>
+                    <p>Every detail, from typography to spacing, is meticulously crafted for harmony.</p>
+                </article>
+                <article class="feature-card fade-up" style="transition-delay: 0.3s;">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Global scale</h3>
+                    <p>Responsive, accessible, and ready for any device — from foldables to 8K displays.</p>
+                </article>
+                <article class="feature-card fade-up" style="transition-delay: 0.4s;">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure by design</h3>
+                    <p>Built with modern best practices so you can focus on what matters — your ideas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== STATS / SOCIAL PROOF ====== -->
+    <section class="stats" id="stats" aria-label="Company insights">
+        <div class="container stats-grid">
+            <div class="stat-item fade-up">
+                <span class="stat-number" data-target="99.9">0</span>
+                <span class="stat-label">Uptime %</span>
+            </div>
+            <div class="stat-item fade-up">
+                <span class="stat-number" data-target="12.4">0</span>
+                <span class="stat-label">Million users</span>
+            </div>
+            <div class="stat-item fade-up">
+                <span class="stat-number" data-target="4.9">0</span>
+                <span class="stat-label">Average rating</span>
+            </div>
+            <div class="stat-item fade-up">
+                <span class="stat-number" data-target="150">0</span>
+                <span class="stat-label">Countries reached</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FINAL CTA ====== -->
+    <section class="cta-section" id="cta" aria-label="Call to action">
+        <div class="container cta-container">
+            <div class="cta-box fade-up">
+                <h2>Ready to build the future?</h2>
+                <p>Join thousands of creators who trust Nexus to bring their vision to life.</p>
+                <form class="cta-form" id="ctaForm">
+                    <input type="email" placeholder="Enter your email" required aria-label="Email address" />
+                    <button type="submit" class="btn-primary">Start free trial</button>
+                </form>
+                <p class="cta-footnote">No credit card required · 14‑day free trial</p>
+                <div id="formFeedback" class="form-feedback" role="status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Nexus</span>
+                <p>Redefining what a landing page can be.</p>
+            </div>
+            <nav class="footer-links" aria-label="Footer navigation">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Support</a>
+                <a href="#">Status</a>
+            </nav>
+            <div class="footer-social">
+                <a href="#" aria-label="Twitter"><span>🐦</span></a>
+                <a href="#" aria-label="GitHub"><span>🐙</span></a>
+                <a href="#" aria-label="YouTube"><span>📺</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nexus. Crafted with <span aria-hidden="true">♥</span> and precision.</p>
+        </div>
+    </footer>
+
+    <!-- ====== SCRIPTS ====== -->
+    <script src="script.js" defer></script>
+</body>
+</html>
